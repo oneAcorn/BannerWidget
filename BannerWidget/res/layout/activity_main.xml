@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.banxian.bannerwidget.BannerView
+        android:id="@+id/bannerView1"
+        android:layout_width="match_parent"
+        android:layout_height="230dp" >
+    </com.banxian.bannerwidget.BannerView>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始/停止"
+         />
+
+    <Button
+        android:id="@+id/btn_clear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清理内存缓存"
+         />
+    
+    <Button
+        android:id="@+id/btn_clear2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清理sd卡缓存"
+         />
+</LinearLayout>
